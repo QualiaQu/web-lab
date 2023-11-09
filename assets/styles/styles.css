@@ -2,10 +2,15 @@
 
 body {
     font-family: Montserrat, serif;
-    display: inline-flex;
+    background: #252B42;
 }
 
-header {
+.wrapper {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.background-image {
     position: relative;
     width: 1440px;
     height: 889px;
@@ -19,6 +24,7 @@ header {
     width: 100%;
     height: 100%;
     position: absolute;
+    margin: 0 auto;
 }
 
 .navbar {
@@ -30,7 +36,7 @@ header {
     display: inline-flex;
     margin-left: 136px;
     margin-top: 17px;
-    padding: 13px 42px 13px 0px;
+    padding: 13px 42px 13px 0;
     align-items: center;
 }
 
@@ -116,7 +122,7 @@ header {
 .welcome-container {
     display: flex;
     width: 1050px;
-    padding: 112px 0px;
+    padding: 112px 0;
     margin-left: 195px;
     margin-top: 13px;
     flex-direction: column;
@@ -180,5 +186,115 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+.advices-layout {
+    display: flex;
+    padding: 0 195px 33px 195px;
+    justify-content: center;
+    align-items: center;
+}
+
+.advices-container {
+    display: flex;
+    width: 1050px;
+    padding: 160px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    flex-shrink: 0;
+}
+
+.advices-container-info {
+    display: flex;
+    width: 691px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.advices-container-info__header {
+    color: #23A6F0;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.advices-container-info__title {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+}
+
+.advices-container-info__text {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.2px;
+}
+
+.advices-container-items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.advices-container-item {
+    width: 328px;
+    display: flex;
+    padding: 35px 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    align-self: stretch;
+    background: #FFF;
+    box-shadow: 0 13px 19px 0 rgba(0, 0, 0, 0.07);
+}
+
+.advices-container-item__icon-box {
+    display: flex;
+    padding: 22px 19px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 10px;
+    background: #E74040;
+}
+
+.advices-container-item__feature-title {
+    color: #252B42;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+}
+
+.advices-container-item__sep-line {
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+}
+
+.advices-container-item__description {
+    color: #737373;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
     letter-spacing: 0.2px;
 }
