@@ -15,7 +15,7 @@ body {
     width: 1440px;
     height: 889px;
     flex-shrink: 0;
-    background: url(../images/dark-hero-3-cover.svg), lightgray 50% / cover no-repeat;
+    background-image: url(../images/dark-hero-3-cover.svg)
 }
 
 .filter {
@@ -252,7 +252,7 @@ body {
 }
 
 .packages-container-item {
-    width: 328px;
+    width: 330px;
     display: flex;
     padding: 35px 0;
     flex-direction: column;
@@ -329,28 +329,10 @@ body {
     gap: 35px;
 }
 
-.invite-container-row-info__title {
-    color: #FFF;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 50px; /* 125% */
-    letter-spacing: 0.2px;
-}
-
 .invite-container-row-info__sep-line {
     width: 94px;
     height: 7px;
     background: #E74040;
-}
-
-.invite-container-row-info__text {
-    color: #FFF;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20px; /* 142.857% */
-    letter-spacing: 0.2px;
 }
 
 .invite-container-row-info-more-button {
@@ -381,23 +363,24 @@ body {
 }
 
 .invite-container-row-concept-photo {
+    display: block;
     top: 0;
     position: absolute;
-    width: 408.093px;
-    height: 408.093px;
+    width: 408px;
+    height: 408px;
     flex-shrink: 0;
-    border-radius: 0px 83.115px;
-    background: url(../images/rectangle-320.svg), lightgray 50% / cover no-repeat;
+    border-radius: 0 83px;
+    background-image: url(../images/rectangle-320.svg);
 }
 
 .invite-container-row-concept-background {
     position: absolute;
-    width: 408.093px;
-    height: 408.093px;
-    margin-top: 22.4px;
-    margin-left: 30.8px;
+    width: 408px;
+    height: 408px;
+    margin-top: 22px;
+    margin-left: 31px;
     flex-shrink: 0;
-    border-radius: 0px 83.115px;
+    border-radius: 0 83px;
     background: #00087E;
 }
 
@@ -408,7 +391,7 @@ body {
     width: 115px;
     height: 58px;
     flex-shrink: 0;
-    background: url(../images/image-10.svg);
+    background-image: url(../images/image-10.svg);
 }
 
 .invite-container-row-concept-procent {
@@ -418,7 +401,7 @@ body {
     width: 247px;
     height: 247px;
     flex-shrink: 0;
-    background: url(../images/image-12.svg), lightgray 50% / cover no-repeat;
+    background-image: url(../images/image-12.svg);
 }
 
 .course-carousel-layout {
